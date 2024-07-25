@@ -16,31 +16,32 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-    <Link href="/" passHref legacyBehavior>
-        <a style={{ display: 'flex', alignItems: 'center', color: 'white' }}>
+      <Link href="/" passHref>
+        <div style={{ display: "flex", alignItems: "center", color: "white" }}>
           <DiCssdeck size="3rem" />
           <Span>Harsh Garg</Span>
-        </a>
+        </div>
       </Link>
     </Div1>
 
     <Div2>
       <li>
-        <Link href="#projects" passHref>
-          <NavLink>Projects</NavLink>
-        </Link>
+        <NavLink href="#projects" passHref>
+          Project
+        </NavLink>
       </li>
       <li>
-        <Link href="#tech" passHref>
-          <NavLink>Technologies</NavLink>
-        </Link>
+        <NavLink href="#tech" passHref>
+          Technology
+        </NavLink>
       </li>{" "}
       <li>
-        <Link href="#about" passHref>
-          <NavLink>About</NavLink>
-        </Link>
+        <NavLink href="#about" passHref>
+          About
+        </NavLink>
       </li>
     </Div2>
+
     <Div3>
       <SocialIcons href="https://github.com">
         <AiFillGithub size="3rem" />
