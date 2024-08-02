@@ -68,7 +68,7 @@ const Timeline = () => {
       <SectionDivider />
       <br />
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>this is the place where I will explain about me</SectionText>
+      <SectionText>A dynamic and ambitious individual with a passion for web development, specializing in MERN stack technologies. Equipped with hands-on experience of building responsive and interactive web applications. Possesses a solid foundation in programming fundamentals and eager to contribute to innovative projects and leverage academic knowledge to deliver high-quality solutions.</SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (

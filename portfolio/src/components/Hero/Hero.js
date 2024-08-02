@@ -12,13 +12,16 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome to <br />
-        My Portfolio
+        Welcome <br />
+        I'm HARSH GARG
       </SectionTitle>
-      <SectionText>
-        Here I am gonna give you brief intro to my education and carrer
-      </SectionText>
-      <Button onClick={() => (window.location = "https://google.com")}>
+      <SectionText> <b><i>Fullstack MERN Developer</i></b></SectionText>
+      <Button
+        onClick={() =>
+          (window.location =
+            "https://drive.google.com/file/d/1oXhHW8CVTHVBG_Thzu7w3MJ0NYwL_tc4/view")
+        }
+      >
         Learn more
       </Button>
     </LeftSection>
