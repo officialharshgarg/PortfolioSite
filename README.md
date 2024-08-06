@@ -9,7 +9,6 @@ This is a personal portfolio website built using Next.js and React.js. The websi
 - [Features](#features)
 - [Installation](#installation)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
 
 ## Demo
 
