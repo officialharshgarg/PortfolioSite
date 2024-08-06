@@ -12,7 +12,7 @@ This is a personal portfolio website built using Next.js and React.js. The websi
 
 ## Demo
 
-You can check out the live demo of the website [here](#).
+You can check out the live demo of the website [here](https://portfoliosite-harsh-gargs-projects-676b9c0e.vercel.app/).
 
 ## Features
 
