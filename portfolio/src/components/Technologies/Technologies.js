@@ -19,15 +19,20 @@ const Technologies = () => (
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>I worked in various technologies</SectionText>
+    <SectionText>
+      Proficient full-stack developer with a strong foundation in front-end
+      technologies such as HTML, CSS, JavaScript, and popular frameworks like
+      React. Possessing expertise in back-end development using languages like
+      Python, Node.js, and databases such as MySQL, MongoDB. Experienced in
+      building scalable and efficient web applications.
+    </SectionText>
     <List>
       <ListItem>
         <DiReact size={"3rem"} />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.JS
+            Experience with <br />• ReactJS • HTML • CSS • Tailwind
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -36,18 +41,16 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.JS & Databases
+            Experience with <br />• Node • Express • MongoDB • MySQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiZend size={"3rem"} />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Tools</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Figma
+            Experience with <br />• Git • GitHub • Vite • RESTful API
           </ListParagraph>
         </ListContainer>
       </ListItem>
